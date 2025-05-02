@@ -1,0 +1,16 @@
+<script>
+let palavra = prompt("Digite a Palavra:");
+let texto = "";
+
+if (palavra) {
+    let maiuscula = palavra.toUpperCase();
+
+    for (let i = maiuscula.length - 1; i >= 0; i--) {
+        texto += maiuscula[i] + "\n";
+    }
+
+    console.log(texto);  // Exibe no console (opcional)
+
+}
+
+</script>
