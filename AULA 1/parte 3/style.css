@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .palavra {
+    font-size: 2em;
+    letter-spacing: 10px;
+    margin: 20px 0;
+  }
+  
+  .entrada {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  button {
+    padding: 6px 12px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #mensagem {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
